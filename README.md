@@ -137,8 +137,8 @@ np.save('above_mean.npy', above_mean)
 * ```np.save('above_mean.npy', above_mean)```: Exports the resulting array to disk as a .npy file.
 
 ## HISTORY OF README FILE
-September 3, 2026: Finalization and Completing readme file
-September 2, 2026: Addition of Functions and Objectives of each problem
-August 27, 2026: Creation of repository and readme file
+* September 3, 2026: Finalization and Completing readme file
+* September 2, 2026: Addition of Functions and Objectives of each problem
+* August 27, 2026: Creation of repository and readme file
 
-Thank you and Godbless
+### Thank you and Godbless!
