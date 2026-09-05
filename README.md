@@ -49,7 +49,7 @@ np.save("X_normalized.npy", X_normalized)
 * ```np.save('X_normalized.npy', X_normalized)```: Saves the resulting array into a binary file named X_normalized.npy on disk for later retrieval.
 
 # B. CUBES DIVISIBLE BY 4 PROBLEM
-> Using NumPy, create the first 100 positive integers, cube every element, and reshape the result into a 10 × 10 ndarray named C. Thus, C begins with 13 and ends with 1003. Page 1 — Experiment No. 2 Use a Boolean condition on C to obtain every cubed value divisible by 4. Store the selected values in div by 4. Preserve NumPy’s normal row-major selection order. Required checks: Display the shape of C, the array div by 4, and the number of selected elements. A correct solution has 50 selected elements; the first is 8 and the last is 1,000,000.
+>OBJECTIVES: Using NumPy, create the first 100 positive integers, cube every element, and reshape the result into a 10 × 10 ndarray named C. Thus, C begins with 13 and ends with 1003. Page 1 — Experiment No. 2 Use a Boolean condition on C to obtain every cubed value divisible by 4. Store the selected values in div by 4. Preserve NumPy’s normal row-major selection order. Required checks: Display the shape of C, the array div by 4, and the number of selected elements. A correct solution has 50 selected elements; the first is 8 and the last is 1,000,000.
 
 ## Discussion
 ### Functions Used
@@ -89,7 +89,7 @@ np.save('div_by_4.npy', C)
 * ```np.save('div_by_4.npy', C)```: Saves the array C to disk in binary .npy format.
 
 # C. ABOVE-MEAN SQUARES PROBLEM
-``` Create a 6 × 6 ndarray named S containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of S and store it in S mean. Then use Boolean filtering to select only the elements strictly greater than S mean. Store these values in above mean. Required checks: Display S, S mean, above mean, and the number of selected elements. A correct solution has 15 selected elements; the first is 484 and the last is 1296.```
+>OBEJECTIVES: Create a 6 × 6 ndarray named S containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of S and store it in S mean. Then use Boolean filtering to select only the elements strictly greater than S mean. Store these values in above mean. Required checks: Display S, S mean, above mean, and the number of selected elements. A correct solution has 15 selected elements; the first is 484 and the last is 1296.
 
 ## Discussion
 ### Functions Used
